@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wildlife Protect</title>
+	<!-- viewport -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- end of viewport -->
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+
+	<!-- bootstrap | css -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.min.css">
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script> <!-- writing jquery before bootstrap first -->
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<!-- end of bootstrap | css -->	
+
+	<!-- for animation -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/animate.css">
+
+	<!-- fonts -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	
+	  <!-- favicon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+
+<video autoplay muted loop id="myVideo">
+  <source src="assets/images/landingbg.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+
+
+
+
+
+  <h1 class="animated fadeInLeft"><strong><em>Ever care for Wildlife?</em></strong></h1>
+<p class="animated fadeInUp delay-1s">This site is dedicated to inform you of the wildlife we need to protect. I mean, if we don't, who will? </p>
+			<a class="btn-primary btn-sm animated infinite fadeIn slower delay-2s" href="homepage.html" role="button"><strong>Help with the Cause</strong></a>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+
+
+
+	
+</body>
+</html
