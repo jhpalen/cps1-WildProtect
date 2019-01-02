@@ -1,0 +1,284 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+.row {
+    width: 100%;
+    margin: 0;	
+}
+
+.indexbg {
+	height: 100vh;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 50px 50px 50px 50px;
+}
+
+.indexhr {
+	color: white;
+	border-color: white;
+	width: 50%;
+}
+
+.indexpadding {
+    margin-top: 20px;	
+}
+
+
+.indexbutton {
+    margin-top: 50px;	
+}
+
+/* end of styles of index.hmtl */
+
+/* style for navigation */
+
+.nav-item:hover {
+    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 1px 0px 20px white;
+}
+
+.navbar {
+    background-color:rgba(0,0,0,.6);
+}
+
+#navhr {
+	margin-top: 0;
+	width: 65%;
+    border-style: inset;
+    border-width: 1.5px;
+    color: #ECF0F1;	
+}
+
+/* end of styles for navigation */
+
+/* styles for home */
+
+.homeBanner {
+	height: 606px;
+	background-image: url("../images/homebanner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+figure {
+    width:100%;
+    margin: 0;
+    padding:1350px 0 0 0;
+position: absolute;
+left: 0;
+bottom: 0;
+overflow: hidden;
+	background-image: url("../images/clouds.png");
+	animation: clouds_anim 75s linear infinite;
+}
+
+.documentarydiv {
+	color: white;
+	    background: rgb(99, 181, 170);
+	background-image: url("../images/turtle.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* animation */
+
+@keyframes clouds_anim {
+	0%{background-position:0 0;}
+	100% {background-position:-1500px 0;}
+}
+
+.homeimages {
+	margin: 30px 0 20px 0;
+}
+
+.homediv2 {
+margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 55%;
+}
+
+.article {
+margin:0;	
+}
+
+.carousel-item{
+	position: relative;
+}
+
+.carousel-caption {
+	position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.indexarrowdown {
+    color: white;	
+	font-size: 50px;
+}
+
+.indexarrowup {
+    color: white;	
+	font-size: 50px;
+}
+
+.cardcontainer {
+	color: white;
+		background-image: url("../images/indexbg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 20px;
+		padding-bottom: 100px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	
+.cardheading {
+    margin-top: 50px;
+margin-bottom: 50px;	
+}
+
+.card {
+	border: 1px solid #2E86C1;
+	background-color:rgba(0,0,0,0.2);
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.documentary {
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+/* end of styles for home.hmtl */
+
+
+/*styles for heading*/
+.aboutHeading,
+.contactHeading,
+.galleryHeading {
+	font-size: 4em;
+	font-weight: bold;
+	line-height:350%;
+    -webkit-text-stroke: 1px #5D6D7E;
+	color: white;
+	text-shadow:
+	1px 1px 0 #5D6D7E,
+	-1px -1px 0 #5D6D7E,  
+	1px -1px 0 #5D6D7E,
+	-1px 1px 0 #5D6D7E,
+	1px 1px 0 #5D6D7E;
+}
+
+/* styles for About */
+
+.aboutBanner {
+	height: 510px;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.aboutContent {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	width: 55%;
+}
+
+/*styles for contact*/
+
+.contactBanner {
+	height: 510px;
+	background-image: url("../images/contactbanner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contactleft
+{
+	padding: 25px 20px 20px 20px;
+}
+
+.contact {
+	margin-top: 20px;
+}
+
+.contactright {
+	padding: 25px 20px 20px 20px;
+}
+
+.contactcontainer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*styles for gallery*/
+
+.galleryBanner {
+	height: 510px;
+	background-image: url("../images/gallerybanner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.galleryimage {
+    filter: grayscale(100%);
+}
+
+.galleryimage:hover {
+filter: grayscale(0%);	
+	transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+	cursor: pointer;
+}
+
+
+footer {
+	padding-bottom:20px;
+	padding-top: 20px;
+	color: white;
+	background-color: black;
+}
+
+	.description {
+		background-color: blue;
+	}
+
+	.modalcontainer {
+		padding: 0;
+		margin: 0;
+	}
