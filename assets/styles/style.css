@@ -96,6 +96,10 @@ overflow: hidden;
 	animation: clouds_anim 75s linear infinite;
 }
 
+.blogimage {
+	overflow: hidden;
+}
+
 .documentarydiv {
 	color: white;
 	    background: rgb(99, 181, 170);
