@@ -104,10 +104,6 @@ figure {
 	padding: 0 auto;
 }
 
-.carousel-image{
-    object-fit: cover;
-}
-
 .documentarydiv {
 	color: white;
 	background: rgb(99, 181, 170);
